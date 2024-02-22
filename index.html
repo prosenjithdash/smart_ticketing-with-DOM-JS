@@ -292,14 +292,319 @@
 
             <div  class="bg-white p-[32px] border-none rounded-[24px] mt-[27px] mb-[120px]   w-[80%] max-w-[1440px] m-auto ">
                 
-                <div>
+                <div class="flex justify-between gap-[50px]">
+
                     <!-- Select seat left side -->
-                    <div>
+                    <div class=" w-[673px]">
                         
+                        <div>
+                            <p class="mb-[23px]">Select Your Seat</p>
+                            <!-- Dashed Border line -->
+                            <div class="border border-dashed border-[#03071233]"></div>
+
+                        </div>
+
+
+                        <!-- Available & Selected Container -->
+
+                        <div class="flex justify-between items-center my-[19px]">
+
+                            <!-- Available Part -->
+                            <div class="flex gap-2 items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                    <path
+                                        d="M5.83333 12.8333C6.45217 12.8333 7.04566 13.0792 7.48325 13.5168C7.92083 13.9543 8.16667 14.5478 8.16667 15.1667V17.5H19.8333V15.1667C19.8333 14.5478 20.0792 13.9543 20.5168 13.5168C20.9543 13.0792 21.5478 12.8333 22.1667 12.8333M5.83333 12.8333C5.21449 12.8333 4.621 13.0792 4.18342 13.5168C3.74583 13.9543 3.5 14.5478 3.5 15.1667V19.8333C3.5 20.4522 3.74583 21.0457 4.18342 21.4832C4.621 21.9208 5.21449 22.1667 5.83333 22.1667H22.1667C22.7855 22.1667 23.379 21.9208 23.8166 21.4832C24.2542 21.0457 24.5 20.4522 24.5 19.8333V15.1667C24.5 14.5478 24.2542 13.9543 23.8166 13.5168C23.379 13.0792 22.7855 12.8333 22.1667 12.8333M5.83333 12.8333V7C5.83333 6.07174 6.20208 5.1815 6.85846 4.52513C7.51484 3.86875 8.40508 3.5 9.33333 3.5H18.6667C19.5949 3.5 20.4852 3.86875 21.1415 4.52513C21.7979 5.1815 22.1667 6.07174 22.1667 7V12.8333M7 22.1667V24.5M21 22.1667V24.5"
+                                        stroke="#030712" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+
+                                <p>Available</p>
+
+
+                            </div>
+
+                            <!-- Selected Part -->
+                            <div class="flex gap-2 items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                    <path
+                                        d="M5.83333 12.8333C6.45217 12.8333 7.04566 13.0792 7.48325 13.5168C7.92083 13.9543 8.16667 14.5478 8.16667 15.1667V17.5H19.8333V15.1667C19.8333 14.5478 20.0792 13.9543 20.5168 13.5168C20.9543 13.0792 21.5478 12.8333 22.1667 12.8333C22.7855 12.8333 23.379 13.0792 23.8166 13.5168C24.2542 13.9543 24.5 14.5478 24.5 15.1667V19.8333C24.5 20.4522 24.2542 21.0457 23.8166 21.4832C23.379 21.9208 22.7855 22.1667 22.1667 22.1667H5.83333C5.21449 22.1667 4.621 21.9208 4.18342 21.4832C3.74583 21.0457 3.5 20.4522 3.5 19.8333V15.1667C3.5 14.5478 3.74583 13.9543 4.18342 13.5168C4.621 13.0792 5.21449 12.8333 5.83333 12.8333Z"
+                                        fill="#1DD100" />
+                                    <path
+                                        d="M5.83333 12.8333V7C5.83333 6.07174 6.20208 5.1815 6.85846 4.52513C7.51484 3.86875 8.40508 3.5 9.33333 3.5H18.6667C19.5949 3.5 20.4852 3.86875 21.1415 4.52513C21.7979 5.1815 22.1667 6.07174 22.1667 7V12.8333"
+                                        fill="#1DD100" />
+                                    <path d="M7 22.1667V24.5V22.1667Z" fill="#1DD100" />
+                                    <path d="M21 22.1667V24.5V22.1667Z" fill="#1DD100" />
+                                    <path
+                                        d="M5.83333 12.8333C6.45217 12.8333 7.04566 13.0792 7.48325 13.5168C7.92083 13.9543 8.16667 14.5478 8.16667 15.1667V17.5H19.8333V15.1667C19.8333 14.5478 20.0792 13.9543 20.5168 13.5168C20.9543 13.0792 21.5478 12.8333 22.1667 12.8333M5.83333 12.8333C5.21449 12.8333 4.621 13.0792 4.18342 13.5168C3.74583 13.9543 3.5 14.5478 3.5 15.1667V19.8333C3.5 20.4522 3.74583 21.0457 4.18342 21.4832C4.621 21.9208 5.21449 22.1667 5.83333 22.1667H22.1667C22.7855 22.1667 23.379 21.9208 23.8166 21.4832C24.2542 21.0457 24.5 20.4522 24.5 19.8333V15.1667C24.5 14.5478 24.2542 13.9543 23.8166 13.5168C23.379 13.0792 22.7855 12.8333 22.1667 12.8333M5.83333 12.8333V7C5.83333 6.07174 6.20208 5.1815 6.85846 4.52513C7.51484 3.86875 8.40508 3.5 9.33333 3.5H18.6667C19.5949 3.5 20.4852 3.86875 21.1415 4.52513C21.7979 5.1815 22.1667 6.07174 22.1667 7V12.8333M7 22.1667V24.5M21 22.1667V24.5"
+                                        stroke="#1DD100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            
+                                <p>Selected</p>
+                            
+                            
+                            </div>
+                        </div>
+
+                        <!-- Dashed Border line -->
+                        <div class="border border-dashed border-[#03071233]"></div>
+
+                        <div class="border-none bg-[#0307121a] ml-[800px] py-[12px] my-[19px] w-[80px] rounded-[12px] ">
+                            <svg class="ml-6" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path
+                                    d="M16 28C14.4241 28 12.8637 27.6896 11.4078 27.0866C9.95189 26.4835 8.62902 25.5996 7.51472 24.4853C6.40042 23.371 5.5165 22.0481 4.91345 20.5922C4.31039 19.1363 4 17.5759 4 16C4 14.4241 4.31039 12.8637 4.91345 11.4078C5.5165 9.95189 6.40042 8.62902 7.51472 7.51472C8.62902 6.40042 9.95189 5.5165 11.4078 4.91345C12.8637 4.31039 14.4241 4 16 4C17.5759 4 19.1363 4.31039 20.5922 4.91345C22.0481 5.5165 23.371 6.40042 24.4853 7.51472C25.5996 8.62902 26.4835 9.95189 27.0866 11.4078C27.6896 12.8637 28 14.4241 28 16C28 17.5759 27.6896 19.1363 27.0866 20.5922C26.4835 22.0481 25.5996 23.371 24.4853 24.4853C23.371 25.5996 22.0481 26.4835 20.5922 27.0866C19.1363 27.6896 17.5759 28 16 28ZM16 28V18.6667M13.3333 16C13.3333 16.7072 13.6143 17.3855 14.1144 17.8856C14.6145 18.3857 15.2928 18.6667 16 18.6667M13.3333 16C13.3333 15.2928 13.6143 14.6145 14.1144 14.1144C14.6145 13.6143 15.2928 13.3333 16 13.3333C16.7072 13.3333 17.3855 13.6143 17.8856 14.1144C18.3857 14.6145 18.6667 15.2928 18.6667 16M13.3333 16L4.33333 13.3333M16 18.6667C16.7072 18.6667 17.3855 18.3857 17.8856 17.8856C18.3857 17.3855 18.6667 16.7072 18.6667 16M18.6667 16L27.6667 13.3333"
+                                    stroke="#030712" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+
+                        <!-- Seat position Sections -->
+                        <div class="flex justify-between">
+
+                            <!-- Left Seat Part -->
+                            <div>
+
+                                <!-- Left Row 1 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                    <p class="text-[18px] text-[#03071280] w-[71px] text-center">A</p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">A1</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">A2</button>
+                                    </p>
+                                </div>
+
+                                <!-- Left Row 2 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                    <p class="text-[18px] text-[#03071280] w-[71px] text-center">B</p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">B1</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">B2</button>
+                                    </p>
+                                </div>
+
+                                <!-- Left Row 3 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                    <p class="text-[18px] text-[#03071280] w-[71px] text-center">C</p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">C1</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">C2</button>
+                                    </p>
+                                </div>
+                                <!-- Left Row 4 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                    <p class="text-[18px] text-[#03071280] w-[71px] text-center">D</p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">D1</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">D2</button>
+                                    </p>
+                                </div>
+                                
+                                <!-- Left Row 5 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                    <p class="text-[18px] text-[#03071280] w-[71px] text-center">E</p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">E1</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">E2</button>
+                                    </p>
+                                </div>
+                                
+                                <!-- Left Row 6 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                    <p class="text-[18px] text-[#03071280] w-[71px] text-center">F</p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">F1</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">F2</button>
+                                    </p>
+                                </div>
+                                <!-- Left Row 7 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                    <p class="text-[18px] text-[#03071280] w-[71px] text-center">G</p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">G1</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">G2</button>
+                                    </p>
+                                </div>
+                                <!-- Left Row 8 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                    <p class="text-[18px] text-[#03071280] w-[71px] text-center">H</p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">H1</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">H2</button>
+                                    </p>
+                                </div>
+                                
+                                <!-- Left Row 9 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                    <p class="text-[18px] text-[#03071280] w-[71px] text-center">I</p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">I1</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">I2</button>
+                                    </p>
+                                </div>
+                                
+                                <!-- Left Row 10 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                    <p class="text-[18px] text-[#03071280] w-[71px] text-center">J</p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">J1</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">J2</button>
+                                    </p>
+                                </div>
+
+                            </div>
+                           
+
+
+
+
+
+                            <!-- Right Seat Part -->
+
+                            <div>
+                                <!-- Right Row 1 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">A3</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">A4</button>
+                                    </p>
+                                </div>
+                                
+                                <!-- Right Row 2 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">B3</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">B4</button>
+                                    </p>
+                                </div>
+                                
+                                <!-- Right Row 3 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">C3</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">C4</button>
+                                    </p>
+                                </div>
+
+                                <!-- Right Row 4 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">D3</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">D4</button>
+                                    </p>
+                                </div>
+                                
+                                <!-- Right Row 5 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">E3</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">E4</button>
+                                    </p>
+                                </div>
+                                
+                                <!-- Right Row 6 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">F3</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">F4</button>
+                                    </p>
+                                </div>
+
+                                <!-- Right Row 7 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">G3</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">G4</button>
+                                    </p>
+                                </div>
+                                
+                                <!-- Right Row 8 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">H3</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">H4</button>
+                                    </p>
+                                </div>
+                                
+                                <!-- Right Row 9 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">I3</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">I4</button>
+                                    </p>
+                                </div>
+                                <!-- Right Row 10 -->
+                                <div class="flex gap-[32px] items-center mb-[24px]">
+                                
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">J3</button>
+                                    </p>
+                                    <p><button
+                                            class="bg-[#F7F8F8] w-[110px] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">J4</button>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- <div class="grid grid-cols-2 gap-2 items-center">
+                            
+                                <button class="bg-[#F7F8F8] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px] ">A1</button>
+                                <button class="bg-[#F7F8F8] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">A2</button>
+                            
+                                <button class="bg-[#F7F8F8] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">B1</button>
+                                <button class="bg-[#F7F8F8] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">B2</button>
+                            
+                                <button class="bg-[#F7F8F8] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">C1</button>
+                                <button class="bg-[#F7F8F8] py-[17px] px-[42px] text-[#03071280] rounded-[12px] text-[18px]">C2</button>
+                            
+                            </div> -->
+                        </div>
                     </div>
 
                     <!-- Select seat Right side -->
-                    <div>
+                    <div class="w-[497px]">
                         <h2 class="mb-[24px]">Select Your Seat</h2>
                         <div class="border border-dashed border-[#03071233]"></div>
 
@@ -346,13 +651,13 @@
                                 <p>BDT 1100</p>
                             </div>
 
-                            <!-- Row 5 container -->
+                        <!-- Row 5 container -->
                             <div>
                                 <input class="text-[14px] p-[20px] relative w-full rounded-[12px]" type="text" placeholder="Have any copupon?" >
                                 <button class="bg-[#1DD100] border-none text-white absolute ml-[-80px] rounded-[8px]  p-2 mt-[10px]">Apply</button>
                             </div>
 
-                            <!-- Row 6 container -->
+                        <!-- Row 6 container -->
                             <div></div>
 
                         </div>
@@ -393,6 +698,7 @@
                             <div><p class="text-[#03071299]">Cancellation Policy</p></div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
